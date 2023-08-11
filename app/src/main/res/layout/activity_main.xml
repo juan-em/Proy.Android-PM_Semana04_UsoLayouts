@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:text="@string/alumno"
+            android:textColor="@color/primary_text"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#73DEEC"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="#59BFD8"
+            android:text="TextView" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#4B5AE671"
+            android:rotation="-6"
+            android:rotationX="55"
+            android:text="Button" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#AB183CE8"
+            app:srcCompat="@mipmap/logo_app_2_round"
+            tools:srcCompat="@mipmap/logo_app_2_round" />
+    </TableRow>
+
+</TableLayout>
